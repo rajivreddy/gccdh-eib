@@ -1,5 +1,10 @@
 # EIB configurations for Standalone provisioning
 
+### prerequisites
+
+- Podman/Docker
+-  SLE micro ISO image [Link](https://www.suse.com/download/sle-micro/)
+
 ```bash
 build-eib --definition-file iso-definition.yaml
 Setting up Podman API listener...
